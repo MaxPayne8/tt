@@ -10,6 +10,7 @@ const Start = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addName([player1.current.value, player2.current.value]));
+
     navigate("/play");
   };
   const player1 = useRef();
