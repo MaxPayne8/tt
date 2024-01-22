@@ -4,6 +4,7 @@ const gameSlice = createSlice({
   name: "game",
   initialState: {
     names: null,
+    save: null,
   },
   reducers: {
     addName: (state, action) => {

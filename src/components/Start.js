@@ -11,10 +11,6 @@ const Start = () => {
     e.preventDefault();
     dispatch(addName([player1.current.value, player2.current.value]));
     navigate("/play");
-    localStorage.setItem(
-      "items",
-      JSON.stringify([player1.current.value, player2.current.value])
-    );
   };
   const player1 = useRef();
   const player2 = useRef();
