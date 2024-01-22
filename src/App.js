@@ -4,7 +4,6 @@ import Game from "./components/Game";
 import { Outlet, createBrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
-import Header from "./components/Header";
 
 function App() {
   return (
